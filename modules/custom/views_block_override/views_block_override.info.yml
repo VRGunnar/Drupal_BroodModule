@@ -1,0 +1,9 @@
+name: Override Views Block
+type: module
+description: 'Allows block displays to override views blocks via the block configuration.'
+package: Custom
+core_version_requirement: ^8 || ^9
+dependencies:
+  - views:views
+
+interface translation project: views_block_override

@@ -1,0 +1,7 @@
+broodmodule.admin.settings:
+  path: '/my-form'
+  defaults:
+    _title: 'My form'
+    _form: 'Drupal\broodmodule\Form\SettingsForm'
+  requirements:
+    _permission: 'access content'

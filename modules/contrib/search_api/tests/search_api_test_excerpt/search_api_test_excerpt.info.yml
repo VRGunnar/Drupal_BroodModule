@@ -1,0 +1,10 @@
+name: 'Search API Excerpt Test'
+type: module
+description: 'Support module for Search API Excerpt tests'
+package: Search
+dependencies:
+  - search_api:search_api
+  - search_api:search_api_test_db
+  - drupal:views
+core: 8.x
+hidden: true

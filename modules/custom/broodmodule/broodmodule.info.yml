@@ -1,0 +1,5 @@
+name: Broodmodule
+type: module
+description: 'This module allows the visitor to order bread and make it visible in the back-office of the user.'
+core: 8.x
+package: custom
