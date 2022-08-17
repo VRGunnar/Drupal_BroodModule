@@ -64,6 +64,12 @@
                 'not null' => FALSE,
                 'default' => '',
             ],
+            'order_date' => [
+                'description' => 'The date when the order was created.',
+                'type' => 'timestamp',
+                'not null' => TRUE,
+                'default' => '',
+            ],
         ],
             // For documentation purposes only; foreign keys are not created in the
             // database.
@@ -81,5 +87,5 @@
     */
     function broodmodule_update_8001(&$sandbox) {
         $table = broodmodule_schema();
-        \Drupal::database()->schema()->createTable('broodmodule', $table['broodmodule']);
+        \Drupal::database()->schema()->createTable('broodmodule', $table['orders']);
     }

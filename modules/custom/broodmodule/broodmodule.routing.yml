@@ -1,7 +1,15 @@
 broodmodule.admin.settings:
-  path: '/my-form'
+  path: '/order-form'
   defaults:
-    _title: 'My form'
+    _title: 'The order form.'
     _form: 'Drupal\broodmodule\Form\SettingsForm'
   requirements:
     _permission: 'access content'
+
+broodmodule.admin.orders:
+  path: '/admin/config/user-interface/broodmodule/backoffice'
+  defaults:
+    _title: 'Overview of all orders.'
+    _controller: 'Drupal\broodmodule\Controller\BackOfficeController::getOrders'
+  requirements:
+    _permission: 'access administration pages'

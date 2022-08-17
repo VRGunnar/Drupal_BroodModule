@@ -1,0 +1,12 @@
+broodmodule.admin.settings:
+  title: 'Broodmodule order form'
+  parent: system.admin_config_ui
+  description: 'Users can place an order here.'
+  route_name: broodmodule.admin.settings
+  menu_name: main
+
+broodmodule.admin.orders:
+  title: 'Broodmodule BackOffice - Orders view'
+  parent: system.admin_config_ui
+  description: 'Here you can see all the orders that have been sent in.'
+  route_name: broodmodule.admin.orders
